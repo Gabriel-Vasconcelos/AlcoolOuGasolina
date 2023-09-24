@@ -1,7 +1,7 @@
 # Alcool Ou Gasolina 
 Repositório feito para a entrega da atividade da cadeira de __Programação Para Dispositivos Móveis__ do curso de __Sistemas e Mídias Digitais (UFC)__. 
 
-A atividade consiste em um aplicativo android no qual auxilia na escolha do seu combustível, podendo ser álcoll ou Gasolina.
+A atividade consiste em um aplicativo android no qual auxilia na escolha do seu combustível, podendo ser Álcool ou Gasolina.
 
 ![posto_gasolina](https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/assets/62850565/c6a74a14-8b2d-460a-878e-0cb280104752)
 
