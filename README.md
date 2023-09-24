@@ -1,5 +1,5 @@
 # Alcool Ou Gasolina 
-Repositório feito para entregar a atividade da cadeira de __Programação para Dispositivos Móveis__ do curso __Sistemas e Mídias Digatis (UFC)__. 
+Repositório feito para a entrega da atividade da cadeira de __Programação Para Dispositivos Móveis__ do curso de __Sistemas e Mídias Digitais (UFC)__. 
 
 A atividade consiste em um aplicativo android no qual auxilia na escolha do seu combustível, podendo ser álcoll ou Gasolina.
 
