@@ -9,10 +9,24 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Switch
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 
 class MainActivity : AppCompatActivity() {
     var percentual:Double = 0.7
     var resultado:String = "-----"
+
+    private fun mostrarAlerta(mensagem: String) {
+        val alertDialogBuilder = AlertDialog.Builder(this)
+        alertDialogBuilder.setTitle("Aviso")
+        alertDialogBuilder.setMessage(mensagem)
+
+        alertDialogBuilder.setPositiveButton("OK") { dialog, _ ->
+            dialog.dismiss()
+        }
+
+        val alertDialog = alertDialogBuilder.create()
+        alertDialog.show()
+    }
 
     override fun onSaveInstanceState(outState: Bundle) {
         outState.putDouble("percentual", percentual)
@@ -39,22 +53,28 @@ class MainActivity : AppCompatActivity() {
         textViewResultado.text = resultado
 
         btCalc.setOnClickListener(View.OnClickListener {
-            val campoGasolinaValor = campoGasolina.text.toString().toDouble()
-            val campoAlcoolValor = campoAlcool.text.toString().toDouble()
+            if(campoGasolina.text.toString() == "" || campoAlcool.text.toString() == ""){
+                mostrarAlerta("Preencha Todos os Campos!")
+                textViewResultado.text = "-----"
 
-            Log.d("PDM23","No btCalcular, $percentual")
-            Log.d("PDM23","Campo Gasolina, $campoGasolinaValor");
-            Log.d("PDM23","Campo Álcool, $campoAlcoolValor");
+            }else{
+                val campoGasolinaValor = campoGasolina.text.toString().toDouble()
+                val campoAlcoolValor = campoAlcool.text.toString().toDouble()
+
+                Log.d("PDM23","No btCalcular, $percentual")
+                Log.d("PDM23","Campo Gasolina, $campoGasolinaValor")
+                Log.d("PDM23","Campo Álcool, $campoAlcoolValor")
 
 
-            if(campoAlcoolValor <= campoGasolinaValor * percentual){
-                Log.d("PDM23","Alcool Vale a pena");
-                resultado = "Álcool"
-            }else if (campoAlcoolValor > campoGasolinaValor * percentual){
-                Log.d("PDM23","Gasolina vale a pena");
-                resultado = "Gasolina"
+                if(campoAlcoolValor <= campoGasolinaValor * percentual){
+                    Log.d("PDM23","Alcool Vale a pena")
+                    resultado = "Álcool"
+                }else if (campoAlcoolValor > campoGasolinaValor * percentual){
+                    Log.d("PDM23","Gasolina vale a pena")
+                    resultado = "Gasolina"
+                }
+                textViewResultado.text = resultado
             }
-            textViewResultado.text = resultado
         })
 
         switchPercentual.setOnClickListener{
