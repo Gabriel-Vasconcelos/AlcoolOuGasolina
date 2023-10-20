@@ -1,51 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/BACKGROUND"
+    android:orientation="horizontal"
+    android:gravity="start"
     tools:context=".MainActivity">
-
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="3dp"
+        android:layout_weight="1"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        >
-
+        android:gravity="center">
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_height="186dp"
+            android:layout_gravity="center"
             android:contentDescription="@string/image_description"
-            android:paddingVertical="10dp"
-            android:textAlignment="center"
             app:srcCompat="@mipmap/posto_gasolina" />
-
         <TextView
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
             android:text="@string/title"
-            android:textAlignment="center"
             android:textColor="#87C4CB"
-            android:textSize="24sp"
+            android:textSize="28sp"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
-            />
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="12dp"
+        android:layout_gravity="end"
+        android:gravity="center">
 
         <EditText
             android:id="@+id/edGasolina"
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:backgroundTint="#ACACAC"
@@ -55,13 +53,12 @@
             android:paddingHorizontal="24px"
             style="@style/TEXTCOLORINPUT"
             android:textColorHint="#AAA"
-            android:layout_marginTop="10dp"
-            android:textSize="16dp"
+            android:layout_marginTop="12dp"
             />
 
         <EditText
             android:id="@+id/edAlcool"
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="10dp"
@@ -70,37 +67,32 @@
             android:hint="@string/alcohol_placeholder"
             android:inputType="numberDecimal"
             android:paddingHorizontal="24px"
-            android:textColorHint="#AAA"
-            android:textSize="16dp"/>
+            android:textColorHint="#AAA" />
 
         <Switch
             android:id="@+id/swPercentual"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:layout_marginHorizontal="30dp"
-            android:layout_marginTop="6dp"
+            android:layout_marginHorizontal="40dp"
             android:text="75%"
-            tools:ignore="UseSwitchCompatOrMaterialXml"
-            android:textSize="10dp"
-            />
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         <Button
             android:id="@+id/btCalcular"
-            android:layout_width="250dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="10dp"
             android:backgroundTint="#F7842D"
-            android:text="@string/button_name"
-            android:textSize="14dp"/>
+            android:text="@string/button_name" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/choice_presentation"
             android:layout_gravity="center_horizontal"
-            android:textSize="16dp"
+            android:textSize="24dp"
             style="@style/TEXTCOLOR"
             />
 
@@ -111,7 +103,6 @@
             android:layout_gravity="center_horizontal"
             android:text="-----"
             android:textColor="#87C4CB"
-            android:textSize="16dp" />
-
+            android:textSize="26dp" />
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
