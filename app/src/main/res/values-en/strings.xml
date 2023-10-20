@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Which Fuel?</string>
+    <string name="image_description">An illustration of a gas pump representing the app</string>
+    <string name="title">Gasoline or Ethanol?</string>
+    <string name="gasoline_placeholder">Gasoline Price</string>
+    <string name="alcohol_placeholder">Ethanol Price</string>
+    <string name="button_name">Calculate</string>
+    <string name="choice_presentation">The Best Choice is: </string>
+    <string name="gasoline_name">Gasoline</string>
+    <string name="alcohol_name">Ethanol</string>
+</resources>

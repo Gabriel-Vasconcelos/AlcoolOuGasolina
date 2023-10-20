@@ -68,10 +68,10 @@ class MainActivity : AppCompatActivity() {
 
                 if(campoAlcoolValor <= campoGasolinaValor * percentual){
                     Log.d("PDM23","Alcool Vale a pena")
-                    resultado = "Álcool"
+                    resultado = getString(R.string.alcohol_name)
                 }else if (campoAlcoolValor > campoGasolinaValor * percentual){
                     Log.d("PDM23","Gasolina vale a pena")
-                    resultado = "Gasolina"
+                    resultado = getString(R.string.gasoline_name)
                 }
                 textViewResultado.text = resultado
             }

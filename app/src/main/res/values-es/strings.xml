@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">¿Con qué combustible?</string>
+    <string name="image_description">Una ilustración de una bomba de gasolina que representa la aplicación</string>
+    <string name="title">Gasolina o Etanol</string>
+    <string name="gasoline_placeholder">Precio de la Gasolina</string>
+    <string name="alcohol_placeholder">Precio del Etanol</string>
+    <string name="button_name">Calcular</string>
+    <string name="choice_presentation">La Mejor Elección es:</string>
+    <string name="gasoline_name">Gasolina</string>
+    <string name="alcohol_name">Etanol</string>
+</resources>

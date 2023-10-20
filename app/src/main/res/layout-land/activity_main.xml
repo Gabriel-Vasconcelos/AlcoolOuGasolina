@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/BACKGROUND"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="start"
     tools:context=".MainActivity">
-
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="3dp"
+        android:layout_weight="1"
+        android:paddingTop="36dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
+        android:gravity="center">
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="186dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
             android:contentDescription="@string/image_description"
-            android:paddingVertical="10dp"
-            android:textAlignment="center"
             app:srcCompat="@mipmap/posto_gasolina" />
-
         <TextView
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="10dp"
             android:text="@string/title"
-            android:textAlignment="center"
             android:textColor="#87C4CB"
             android:textSize="28sp"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
-            />
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingTop="36dp"
+        android:layout_gravity="end"
+        android:gravity="center">
 
         <EditText
             android:id="@+id/edGasolina"
@@ -106,6 +106,5 @@
             android:text="-----"
             android:textColor="#87C4CB"
             android:textSize="26dp" />
-
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
