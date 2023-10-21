@@ -11,6 +11,7 @@ Um aplicativo Android que auxilia os usuários na escolha entre Álcool e Gasoli
 Mdifique as aplicações Vamos Rachar! e Álcool ou Gasolina para que elementos da sua interface se adaptem de acordo com os seguintes qualificadores
 
 - Repositório _Vamos Rachar_: https://github.com/Gabriel-Vasconcelos/LetsShare
+- Repositório Álcool ou Gasolina_: https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/ 
 
 ### :hammer: As features principais são:
 1. (2.5 pontos) - Orientação do Dispositivo :white_check_mark:
