@@ -37,7 +37,7 @@
             android:layout_marginBottom="10dp"
             android:text="Gasolina ou Álcool?"
             android:textAlignment="center"
-            android:textColor="#87C4CB"
+            android:textColor="#2B91D9"
             android:textSize="28sp"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
@@ -45,31 +45,34 @@
 
         <EditText
             android:id="@+id/edGasolina"
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20sp"
             android:layout_gravity="center_horizontal"
-            android:backgroundTint="#ACACAC"
+            android:backgroundTint="#49454F"
             android:ems="10"
             android:hint="Preço da Gasolina"
             android:inputType="numberDecimal"
             android:paddingHorizontal="24px"
             style="@style/TEXTCOLORINPUT"
-            android:textColorHint="#AAA"
+            android:textColorHint="#888"
             android:layout_marginTop="12dp"
+
             />
 
         <EditText
             android:id="@+id/edAlcool"
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20sp"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="12dp"
-            android:backgroundTint="#ACACAC"
+            android:backgroundTint="#49454F"
             android:ems="10"
             android:hint="Preço do Álcool"
             android:inputType="numberDecimal"
             android:paddingHorizontal="24px"
-            android:textColorHint="#AAA" />
+            android:textColorHint="#888" />
 
         <Switch
             android:id="@+id/swPercentual"
@@ -78,23 +81,28 @@
             android:layout_gravity="right"
             android:layout_marginHorizontal="30dp"
             android:text="75%"
-            tools:ignore="UseSwitchCompatOrMaterialXml" />
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            android:minWidth="48dp"
+            android:minHeight="48dp"/>
 
         <Button
             android:id="@+id/btCalcular"
-            android:layout_width="300dp"
+            android:layout_width="wrap_content"
+            android:minWidth="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="24dp"
-            android:backgroundTint="#F7842D"
-            android:text="Calcular" />
+            android:backgroundTint="#DB6127"
+            android:text="Calcular"
+            android:textColor="#EEE"
+            android:textSize="20sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="A Melhor Escolha é: "
             android:layout_gravity="center_horizontal"
-            android:textSize="24dp"
+            android:textSize="24sp"
             style="@style/TEXTCOLOR"
             />
 
@@ -104,8 +112,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="-----"
-            android:textColor="#87C4CB"
-            android:textSize="26dp" />
+            android:textColor="#2B91D9"
+            android:textSize="26sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
