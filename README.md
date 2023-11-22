@@ -109,10 +109,10 @@ Modifique LayoutParams para permitir a expansão de texto.
 </div>
 
 ### Antes 
-
+<img src="https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/assets/62850565/9bd302ef-3421-403d-a86a-dcad64bce04a" width="500" height="auto" />
 
 ### Depois
-
+<img src="https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/assets/62850565/ee2920e6-8814-4281-9976-1dc869566045" width="500" height="auto" />
 
 ## :iphone: Demonstração do Aplicativo
 https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/assets/62850565/b544af6c-9d4f-439c-9d40-a4648c2f7914
