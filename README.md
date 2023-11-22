@@ -98,6 +98,21 @@ Modifique LayoutParams para permitir a expansão de texto.
 *com.example.alcoolougasolina:id/action_bar*
 Modifique LayoutParams para permitir a expansão de texto.
 
+### :camera: Prints do Scanner de Acessibilidade
+
+<div>
+  <img src="https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/assets/62850565/71fe4d7e-4e41-4f7a-acd8-569fca593147" width="500" height="auto" />
+  <img src="https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/assets/62850565/5a8e3dd2-ee28-424d-ad9b-ffd7dc123adf" width="500" height="auto" />
+  
+  **Observação: Como pode ser visto acima, ainda há duas sugestões de melhoria pendentes. No entanto, elas estão relacionadas à cor da imagem. Para corrigir isso, seria necessário fazer edições no Photoshop ou no Illustrator (que foi a ferramenta utilizada inicialmente na edição dessa imagem).**
+  
+</div>
+
+### Antes 
+
+
+### Depois
+
 
 ## :iphone: Demonstração do Aplicativo
 https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/assets/62850565/b544af6c-9d4f-439c-9d40-a4648c2f7914
