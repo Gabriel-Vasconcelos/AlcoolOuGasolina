@@ -25,6 +25,79 @@ Repositório Álcool ou Gasolina_: https://github.com/Gabriel-Vasconcelos/Alcool
 
 ## 📋 Relatório
 
+> Ao contrário do aplicativo *Vamos Rachar*, este apresentou um número significativamente maior de pontos assinalados pelo Scanner de Acessibilidade, no entanto, continuam sendo bem simples de se resolver. Os problemas apontados foram mais voltados ao textos, principalmente contraste da sua cor com a cor de background e em relação ao tamanho, também foi apontado problemas nos *Edit Text* envolvendo a cor e o tamanho. Por fim, o Scanner também apontou problemas envolvendo a imagem.
+
+
+### A lista a seguir contém oportunidades de melhoria na acessibilidade de Com qual combustível?
+
+#### Área de toque
+*com.example.alcoolougasolina:id/edGasolina*
+A altura deste item é 46dp. Considere definir a altura desta área de toque como 48dp ou maior.
+
+#### Área de toque
+*com.example.alcoolougasolina:id/edAlcool*
+A altura deste item é 46dp. Considere definir a altura desta área de toque como 48dp ou maior.
+
+#### Área de toque
+*com.example.alcoolougasolina:id/swPercentual*
+A altura deste item é 27dp. Considere definir a altura desta área de toque como 48dp ou maior.
+
+#### Contraste da imagem
+*com.example.alcoolougasolina:id/imageView*
+A taxa de contraste da imagem é 2,46. Essa taxa baseia-se em uma estimativa da cor do primeiro plano #B19D9D e da cor de fundo #FAFAFA. Considere aumentar essa taxa para 3,00 ou mais.
+
+#### Contraste do texto
+*[32,125][461,179]*
+A taxa de contraste do texto no item é 2,53. Ela é determinada com base na estimativa da cor do primeiro plano #FFFFFF e da cor de fundo #F7842D. Aumente esse valor para 3,00 ou mais.
+
+#### Contraste do texto
+*com.example.alcoolougasolina:id/titulo*
+A taxa de contraste do texto no item é 1,86. Ela é determinada com base na estimativa da cor do primeiro plano #87C4CB e da cor de fundo #FAFAFA. Aumente esse valor para 3,00 ou mais.
+
+#### Contraste do texto
+*com.example.alcoolougasolina:id/edGasolina*
+A taxa de contraste do texto no item é 2,23. Ela é determinada com base na estimativa da cor do primeiro plano #AAAAAA e da cor de fundo #FAFAFA. Aumente esse valor para 3,00 ou mais.
+
+#### Contraste do texto
+*com.example.alcoolougasolina:id/edAlcool*
+A taxa de contraste do texto no item é 2,23. Ela é determinada com base na estimativa da cor do primeiro plano #AAAAAA e da cor de fundo #FAFAFA. Aumente esse valor para 3,00 ou mais.
+
+#### Contraste do texto
+*com.example.alcoolougasolina:id/btCalcular*
+A taxa de contraste do texto no item é 2,53. Ela é determinada com base na estimativa da cor do primeiro plano #FFFFFF e da cor de fundo #F7842D. Aumente esse valor para 4,50 ou mais.
+
+#### Contraste do texto
+*[144,1320][576,1385]*
+A taxa de contraste do texto no item é 2,73. Ela é determinada com base na estimativa da cor do primeiro plano #999999 e da cor de fundo #FAFAFA. Aumente esse valor para 3,00 ou mais.
+
+#### Contraste do texto
+*com.example.alcoolougasolina:id/tvResultado*
+A taxa de contraste do texto no item é 1,86. Ela é determinada com base na estimativa da cor do primeiro plano #87C4CB e da cor de fundo #FAFAFA. Aumente esse valor para 3,00 ou mais.
+
+#### Tamanho do texto
+*[144,1320][576,1385]*
+Especifique o texto em escala de pixels (sp).
+
+#### Tamanho do texto
+*com.example.alcoolougasolina:id/tvResultado*
+Especifique o texto em escala de pixels (sp).
+
+#### Tamanho do texto
+*com.example.alcoolougasolina:id/edGasolina*
+Modifique LayoutParams para permitir a expansão de texto.
+
+#### Tamanho do texto
+*com.example.alcoolougasolina:id/edAlcool*
+Modifique LayoutParams para permitir a expansão de texto.
+
+#### Tamanho do texto
+*com.example.alcoolougasolina:id/btCalcular*
+Modifique LayoutParams para permitir a expansão de texto.
+
+#### Tamanho do texto
+*com.example.alcoolougasolina:id/action_bar*
+Modifique LayoutParams para permitir a expansão de texto.
+
 
 ## :iphone: Demonstração do Aplicativo
 https://github.com/Gabriel-Vasconcelos/AlcoolOuGasolina/assets/62850565/b544af6c-9d4f-439c-9d40-a4648c2f7914
